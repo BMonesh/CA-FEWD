@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+body{
+    background-image: url("https://github.com/Kalvium-Program/netflix-clone-boilerplate/blob/main/assets/Title-Image.png?raw=true");
+    backdrop-filter:inherit;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    overflow-y: scroll;   
+}
+
+#Netflix{
+    height: 25px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    filter: brightness(130%);
+}
+
+.top_text{
+    position: relative;
+    margin-right: 1200px;
+    color: white;
+    left: 170px;
+    bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.top_right{
+    margin-right: 1400px;
+    position: relative;
+    left: 1380px;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    filter: invert(50%);
+}
+
+#N{
+    height: 40px;
+    filter: brightness(130%);
+}
+
+.N_show{
+    margin-right: 1420px;
+    position: relative;
+    left: 60px;
+    top: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#show{
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: robot-regular; */
+}
+
+#title_maid{
+    font-size: 100px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 50px;
+    top: 350px;
+}
+
+#play{
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 1420px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 50px;
+    top: 350px;
+}
+
+#detail{
+    background-color: rgba(181, 185, 180, 0.5);
+    border-radius: 5px;
+    margin-right: 1370px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 307px;
+    left: 170px;
+}
+
+#more{
+    color: white;
+    text-decoration: double;
+}
+
+#add{
+    position: relative;
+    left: 1490px;
+    top: 395px;
+    filter: invert(50%);
+}
+
+#see_again{
+    color: white;
+    position: relative;
+    left: 60px;
+    top: 370px;
+}
+
+.movies{
+    position: relative;
+    top: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;
+    }
+  }
